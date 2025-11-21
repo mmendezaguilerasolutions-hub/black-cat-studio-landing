@@ -69,6 +69,18 @@ All colors MUST be HSL.
   }
 }
 
+@layer components {
+  /* Container - Contiene y centra el contenido principal */
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Section - Padding vertical estándar para secciones */
+  .section {
+    @apply py-16 md:py-24;
+  }
+}
+
 @layer utilities {
   .hover-scale {
     @apply transition-transform duration-300 hover:scale-105;
